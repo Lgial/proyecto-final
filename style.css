@@ -1,0 +1,35 @@
+body {
+    background-color: #011833;
+}
+.navbar {
+    background-color: #011833!important;
+}
+.nav-link {
+    color: #ffffff!important;
+    position: relative;
+    left: 190%;
+}
+.navbar-brand {
+    color: #ffffff;
+    position: relative;
+    left: 25%;
+
+}
+
+#logo {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+}
+.logotipo {
+    width: 30%;
+    height: auto;
+}
+
+.container {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    justify-content: space-evenly;
+}
