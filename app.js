@@ -144,7 +144,6 @@ stockProductos.forEach((producto) => {
     <img src=${producto.img} alt= "">
     <h3>${producto.nombre}</h3>
     <p>${producto.desc}</p>
-    <p>Talle: ${producto.talle}</p>
     <p class="precioProducto">Precio:$ ${producto.precio}</p>
     <button id="agregar${producto.id}" class="boton-agregar">Agregar <i class="fas fa-shopping-cart"></i></button>
     `
@@ -217,12 +216,15 @@ const carritoActualizado = () => {
 }
 
 const btnMostrarAlert = document.getElementById("btn-mostrar-alert");
-  btnMostrarAlert.onclick = mostrarAlert();
+btnMostrarAlert.onclick = mostrarAlert();
 
   function mostrarAlert() {
-  Swal.fire({
-    icon: "error",
-    title: "Ups",
-    text: "Proyecto final en proceso!",
-    });
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: 'Trabajo final terminado',
+      showConfirmButton: false,
+      timer: 1500
+    })
+
   }
