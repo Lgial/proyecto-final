@@ -258,3 +258,9 @@ form button {
     cursor: pointer;
     font-size: 20px;
 }
+
+.btn {
+    position: relative;
+    right: 80%;
+    bottom: 32%;
+   }
